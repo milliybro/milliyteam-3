@@ -22,7 +22,7 @@ module.exports = {
       bg_pr: "#FAFAFA",
     },
     backgroundImage: {
-      'hero-pattern': "url('/img/hero-pattern.svg')",
+      'hero-pattern': "url('images/home/hero.png')",
       'footer-texture': "url('/img/footer-texture.png')",
     },
     container: {
