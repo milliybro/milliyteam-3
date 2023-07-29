@@ -12,8 +12,18 @@ module.exports = {
       xxl: "1500px",
     },
     colors: {
-      primary: "yellow",
+      primary: "#FFC000",
       secondary: "orange",
+      white: "white",
+      grey: "grey",
+      blue: "blue",
+      black: "black",
+      btn: "rgba(0, 0, 0, 0.05)",
+      bg_pr: "#FAFAFA",
+    },
+    backgroundImage: {
+      'hero-pattern': "url('/img/hero-pattern.svg')",
+      'footer-texture': "url('/img/footer-texture.png')",
     },
     container: {
       padding: "20px",
