@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: ["./index.html", "./pages/*.html"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
     screens: {
@@ -22,8 +22,8 @@ module.exports = {
       bg_pr: "#FAFAFA",
     },
     backgroundImage: {
-      'hero-pattern': "url('/img/hero-pattern.svg')",
-      'footer-texture': "url('/img/footer-texture.png')",
+      "hero-pattern": "url('images/home/hero.png')",
+      "footer-texture": "url('/img/footer-texture.png')",
     },
     container: {
       padding: "20px",
