@@ -684,11 +684,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-grey {
-  --tw-bg-opacity: 1;
-  background-color: rgb(128 128 128 / var(--tw-bg-opacity));
-}
-
 .bg-\[black\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -729,10 +724,6 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-2xl {
