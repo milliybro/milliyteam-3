@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MILANDI</title>
-    <link rel="stylesheet" href="./output.css" />
-  </head>
-  <body>
-    
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MILANDI</title>
+  <link rel="stylesheet" href="./output.css" />
+</head>
+
+<body>
+
 
   <header>
     <nav id="navbar" class="navbar fixed w-full z-20 left-0 top-0 m-auto bg-bg_pr">
-      <div class="navbar__header bg-[black]" >
+      <div class="navbar__header bg-[black]">
         <div class="max-w-screen-xl m-auto navbar__header__link bg-black   ">
           <a class="text-grey active:text-white text-xs uppercase font-bold" href="#">Ru</a>
           <a class="text-grey active:text-white text-xs  uppercase font-bold" href="#">Uzb</a>
@@ -47,17 +49,94 @@
   <main>
     <section id="hero" class="mt-[110px] bg-[url('../images/home/hero.png')] ">
       <div class="max-w-screen-xl container mx-auto m-auto">
-       <div class="hero pt-60 pb-[339px]">
-        <h1 class="text-4xl text-white w-[45%] font-bold leading-[140%]">Быстрый и удобный шоппинг, не выходя из дома.</h1>
-        <p class="text-sm text-white font-normal leading-5 w-[40%] pt-4 pb-6 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae, duis nec ut velit, fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet quis erat.
-        </p>
-        <a href="#" class="text-primary text-sm font-semibold leading-5 uppercase flex items-center gap-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8" fill="none">
-            <path d="M6 4L6.27408e-07 7.4641L9.30249e-07 0.535898L6 4Z" fill="#FFC000"/>
+        <div class="hero pt-60 pb-[339px]">
+          <h1 class="text-4xl text-white w-[45%] font-bold leading-[140%]">Быстрый и удобный шоппинг, не выходя из дома.
+          </h1>
+          <p class="text-sm text-white font-normal leading-5 w-[40%] pt-4 pb-6 ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae, duis nec ut velit,
+            fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet quis erat.
+          </p>
+          <a href="#" class="text-primary text-sm font-semibold leading-5 uppercase flex items-center gap-3 ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8" fill="none">
+              <path d="M6 4L6.27408e-07 7.4641L9.30249e-07 0.535898L6 4Z" fill="#FFC000" />
             </svg>
-           Все товары</a>
-       </div>
+            Все товары</a>
+        </div>
+      </div>
+    </section>
+    <section id="we" class="bg-secondary pb-20">
+      <div class="max-w-screen-xl container mx-auto m-auto">
+        <h1 class="font-bold text-4xl text-center pt-[67px] pb-6">Наши преимущества</h1>
+        <div class="grid grid-cols-3 gap-20 ">
+          <div class="grid__card bg-white px-16 py-7 rounded-xl">
+            <img class="m-auto pb-[45px]" src="../images/home/we1.svg">
+            <h5 class="text-center text-base font-normal">Лучший сервис</h5>
+          </div>
+          <div class="grid__card bg-white px-16 py-7 rounded-xl">
+            <img class="m-auto pb-[45px]" src="../images/home/we2.svg">
+            <h5 class="text-center text-base font-normal">Экспресс доставка</h5>
+          </div>
+          <div class="grid__card bg-white px-16 py-7 rounded-xl">
+            <img class="m-auto pb-[45px]" src="../images/home/we3.svg">
+            <h5 class="text-center text-base font-normal">Лучшее качество в стране</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="product" class="bg-secondary pb-20">
+      <div class="max-w-screen-xl container mx-auto m-auto">
+        <h1 class="font-bold text-4xl text-center pt-[67px] pb-6">Лучшие товары</h1>
+        <div class="grid grid-cols-4 gap-[40px] ">
+          <div class="grid__card bg-white rounded-xl">
+            <img class="m-auto pb-[7px] w-full" src="../images/home/product1.png">
+           <div class="grid__card__content px-3 pb-2">
+            <h3 class="text-lg   font-semibold leading-5 uppercase">Lorem ipsum dolor sit amet</h3>
+            <p class="text-xs font-medium pt-2 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+            <div class="product__star  justify-between flex pt-2">
+              <img class="text-left" src="../images/home/prostar.png">
+              <h6 class="text-right">855 у.е.</h6>
+            </div>
+            <button class="mt-3 text-sm font-semibold uppercase text-center rounded-lg bg-primary px-8 py-2 m-auto flex justify-center">Добавить в корзину</button>
+           </div>
+          </div>
+          <div class="grid__card bg-white rounded-xl">
+            <img class="m-auto pb-[7px] w-full" src="../images/home/product2.png">
+           <div class="grid__card__content px-3 pb-2">
+            <h3 class="text-lg   font-semibold leading-5 uppercase">Lorem ipsum dolor sit amet</h3>
+            <p class="text-xs font-medium pt-2 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+            <div class="product__star  justify-between flex pt-2">
+              <img class="text-left" src="../images/home/prostar.png">
+              <h6 class="text-right">855 у.е.</h6>
+            </div>
+            <button class="mt-3 text-sm font-semibold uppercase text-center rounded-lg bg-primary px-8 py-2 m-auto flex justify-center">Добавить в корзину</button>
+           </div>
+          </div>
+          <div class="grid__card bg-white rounded-xl">
+            <img class="m-auto pb-[7px] w-full" src="../images/home/product3.png">
+           <div class="grid__card__content px-3 pb-2">
+            <h3 class="text-lg   font-semibold leading-5 uppercase">Lorem ipsum dolor sit amet</h3>
+            <p class="text-xs font-medium pt-2 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+            <div class="product__star  justify-between flex pt-2">
+              <img class="text-left" src="../images/home/prostar.png">
+              <h6 class="text-right">855 у.е.</h6>
+            </div>
+            <button class="mt-3 text-sm font-semibold uppercase text-center rounded-lg bg-primary px-8 py-2 m-auto flex justify-center">Добавить в корзину</button>
+           </div>
+          </div>
+          <div class="grid__card bg-white rounded-xl">
+            <img class="m-auto pb-[7px] w-full" src="../images/home/product4.png">
+           <div class="grid__card__content px-3 pb-2">
+            <h3 class="text-lg   font-semibold leading-5 uppercase">Lorem ipsum dolor sit amet</h3>
+            <p class="text-xs font-medium pt-2 pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed nascetur.</p>
+            <div class="product__star  justify-between flex pt-2">
+              <img class="text-left" src="../images/home/prostar.png">
+              <h6 class="text-right">855 у.е.</h6>
+            </div>
+            <button class="mt-3 text-sm font-semibold uppercase text-center rounded-lg bg-primary px-8 py-2 m-auto flex justify-center">Добавить в корзину</button>
+           </div>
+          </div>
+
+        </div>
       </div>
     </section>
   </main>
