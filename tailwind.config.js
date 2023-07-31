@@ -13,7 +13,7 @@ module.exports = {
     },
     colors: {
       primary: "#FFC000",
-      secondary: "orange",
+      secondary: "#F2F3F7",
       white: "white",
       grey: "grey",
       blue: "blue",
