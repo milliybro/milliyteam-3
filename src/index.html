@@ -10,14 +10,14 @@
     
 
   <header>
-    <div class="navbar__header bg-[black]">
-      <div class="max-w-screen-xl m-auto navbar__header__link bg-black   ">
-        <a class="text-grey active:text-white text-xs uppercase font-bold" href="#">Ru</a>
-        <a class="text-grey active:text-white text-xs  uppercase font-bold" href="#">Uzb</a>
+    <nav id="navbar" class="navbar fixed w-full z-20 left-0 top-0 m-auto bg-bg_pr">
+      <div class="navbar__header bg-[black]" >
+        <div class="max-w-screen-xl m-auto navbar__header__link bg-black   ">
+          <a class="text-grey active:text-white text-xs uppercase font-bold" href="#">Ru</a>
+          <a class="text-grey active:text-white text-xs  uppercase font-bold" href="#">Uzb</a>
+        </div>
       </div>
-    </div>
-    <nav id="navbar" class="navbar fixed w-full z-20 top-10 left-0 bg-bg_pr">
-      <div class="max-w-screen-xl container mx-auto m-auto flex justify-between items-center block py-5">
+      <div class="max-w-screen-xl container mx-auto m-auto flex justify-between items-center py-5">
         <div class="navbar__logo ">
           <h3 class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MILANDI</h3>
         </div>
@@ -30,7 +30,7 @@
         <div class="hidden pt-3 sm:flex">
           <button class="block px-6 cursor-pointer rounded mx-4 bg-btn">Войти</button>
           <button class="block px-6 cursor-pointer rounded mx-4 bg-primary">Зарегистрироваться</button>
-          <img class="block px-6" src="images/home/navbar.svg">
+          <img class="block px-6" src="../images/home/navbar.svg">
         </div>
         <button data-collapse-toggle="navbar-cta" type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -44,6 +44,23 @@
       </div>
     </nav>
   </header>
+  <main>
+    <section id="hero" class="mt-[110px] bg-[url('../images/home/hero.png')] ">
+      <div class="max-w-screen-xl container mx-auto m-auto">
+       <div class="hero pt-60 pb-[339px]">
+        <h1 class="text-4xl text-white w-[45%] font-bold leading-[140%]">Быстрый и удобный шоппинг, не выходя из дома.</h1>
+        <p class="text-sm text-white font-normal leading-5 w-[40%] pt-4 pb-6 ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae, duis nec ut velit, fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet quis erat.
+        </p>
+        <a href="#" class="text-primary text-sm font-semibold leading-5 uppercase flex items-center gap-3 ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8" fill="none">
+            <path d="M6 4L6.27408e-07 7.4641L9.30249e-07 0.535898L6 4Z" fill="#FFC000"/>
+            </svg>
+           Все товары</a>
+       </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
