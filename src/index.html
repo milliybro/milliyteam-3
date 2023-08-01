@@ -47,12 +47,12 @@
     </nav>
   </header>
   <main class="bg-secondary"> 
-    <section id="hero" class="mt-[110px] bg-[url('../images/home/hero.png')] ">
+    <section id="hero" class="mt-[110px] bg-[url('../images/home/hero.png')] bg-center bg-no-repeat bg-cover ">
       <div class="max-w-screen-xl container mx-auto m-auto">
         <div class="hero pt-60 pb-[339px]">
-          <h1 class="text-4xl text-white w-[45%] font-bold leading-[140%]">Быстрый и удобный шоппинг, не выходя из дома.
+          <h1 class="text-4xl text-white font-bold leading-[140%] w-full lg:w-[45%] md:w-[50%]">Быстрый и удобный шоппинг, не выходя из дома.
           </h1>
-          <p class="text-sm text-white font-normal leading-5 w-[40%] pt-4 pb-6 ">
+          <p class="text-sm text-white font-normal leading-5 pt-4 pb-6 w-full lg:w-[40%] md:w-[50%] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae, duis nec ut velit,
             fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet quis erat.
           </p>
@@ -67,7 +67,7 @@
     <section id="we" class="bg-secondary pb-20">
       <div class="max-w-screen-xl container mx-auto m-auto">
         <h1 class="font-bold text-4xl text-center pt-[67px] pb-6">Наши преимущества</h1>
-        <div class="grid grid-cols-3 gap-20 ">
+        <div class="grid grid-cols-1 gap-5  md:gap-20 sm:grid-cols-3">
           <div class="grid__card bg-white px-16 py-7 rounded-xl">
             <img class="m-auto pb-[45px]" src="../images/home/we1.svg">
             <h5 class="text-center text-base font-normal">Лучший сервис</h5>
@@ -86,7 +86,7 @@
     <section id="product" class="bg-secondary pb-20">
       <div class="max-w-screen-xl container mx-auto m-auto">
         <h1 class="font-bold text-4xl text-center pt-[67px] pb-6">Лучшие товары</h1>
-        <div class="grid grid-cols-4 gap-[40px] ">
+        <div class="grid grid-cols-1 gap-[40px] sm:grid-cols-2 lg:grid-cols-4">
           <div class="grid__card bg-white rounded-xl">
             <img class="m-auto pb-[7px] w-full" src="../images/home/product1.png">
             <div class="grid__card__content px-3 pb-2">
@@ -153,7 +153,7 @@
     <section id="category" class="bg-secondary pb-[243px]">
       <div class="max-w-screen-xl container mx-auto m-auto">
         <h1 class="font-bold text-4xl text-center pt-[67px] pb-9">Категории</h1>
-        <div class="grid grid-cols-4 gap-[40px] ">
+        <div class="grid grid-cols-1 gap-[40px] sm:grid-cols-2 lg:grid-cols-4">
           <div class="grid__card bg-white rounded-xl">
             <img class="w-full h-full" src="../images/home/cate4.png">
           </div>
@@ -171,18 +171,18 @@
     </section>
     <section id="download" class="bg-bl_gradient">
       <div class="max-w-screen-xl container mx-auto m-auto">
-        <div class="grid grid-cols-2 relative">
+        <div class="grid grid-cols-2 relative xl:grid-cols-2">
           <div class="">
-            <img class="absolute -top-36" src="../images/home/download.png">
+            <img class="relative -top-36 xl:absolute " src="../images/home/download.png">
           </div>
-          <div class="-ms-44 pt-10 pb-14">
+          <div class="-ms-44 pb-14 xl:pt-10">
             <h3 class="text-[34px] font-bold text-white">Скачай приложение и получай призы каждый день</h3>
             <p class="text-[14px] font-normal text-white pt-6 pb-10">
               Скачав наш приложение вы получаете возможность играть в призовые игры каждый день и выигровать разного
               рода подарки для себя.
               В нашем приложении призовые игры проходят аблолютно каждый день и всё это совершенно бесплатно.
             </p>
-            <div class="flex gap-8">
+            <div class="flex flex-col gap-8 sm:flex-row">
               <img src="../images/home/play.png">
               <img src="../images/home/store.png">
 
@@ -194,7 +194,7 @@
     <section id="new" class="bg-secondary pb-20">
       <div class="max-w-screen-xl container mx-auto m-auto">
         <h1 class="font-bold text-4xl text-center pt-[67px] pb-6">Новые товары</h1>
-        <div class="grid grid-cols-4 gap-[40px] ">
+        <div class="grid grid-cols-1 gap-[40px] sm:grid-cols-2 lg:grid-cols-4">
           <div class="grid__card bg-white rounded-xl">
             <img class="m-auto pb-[7px] w-full" src="../images/home/new1.png">
             <div class="grid__card__content px-3 pb-2">
@@ -260,9 +260,9 @@
     </section>
     <section id="start" class="bg-white">
       <div class="max-w-screen-xxl mx-auto">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
           <div class="">
-            <img class="" src="../images/home/start.png">
+            <img class="w-full" src="../images/home/start.png">
           </div>
           <div class="ps-[30px] pe-40  pt-[100px] pb-[80px]">
             <h3 class="text-[34px] font-bold">Создай свой лук на все случаи жизни в “Imperia”</h3>
@@ -281,14 +281,47 @@
     </section>
   </main>
   <footer>
-    <div class="max-w-screen-xl container mx-auto m-auto">
-      <div class="grid grid-cols-4">
-        <div>
-          <h4>про imperia</h4>
-          <p>
+    <div class="max-w-screen-xl container mx-auto m-auto pb-[48px]">
+      <div class="grid grid-cols-1 m-auto justify-center text-clip sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
+        <div class="w-52">
+          <h3 class="text-sm font-semibold uppercase pb-4" >про imperia</h3>
+          <p class="text-sm font-normal pb-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean dignissim sit cursus dictumst adipiscing nunc.
           </p>
+          <img src="../images/home/footer.png">
+        </div>
+        <div>
+          <ul class="gap-3">
+            <h3  class="text-sm font-semibold uppercase pb-4">контакты</h3>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">+998 90 958 78 87</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">support@fonon.uz</a></li>
+          </ul>
+          <ul>
+            <h3  class="text-sm font-semibold uppercase pb-4 pt-[38px]">рабочее время</h3>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">По будням 9:00 to 18:00</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">В выходные 11:00 to 18:00</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3 class="text-sm font-semibold uppercase pb-4">Меню</h3>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Главная</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">О нас</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Категории</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Сотрудничество</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3 class="text-sm font-semibold uppercase pb-4">категории</h3>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Женская одежда</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Мужская одежда</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Детская одежда</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Обувь</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Сумки</a></li>
+            <li><a href="#" class="text-sm font-normal pb-[20px]">Аксесуары</a></li>
 
+          </ul>
         </div>
       </div>
     </div>
