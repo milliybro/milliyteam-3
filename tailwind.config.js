@@ -21,6 +21,7 @@ module.exports = {
       btn: "rgba(0, 0, 0, 0.05)",
       bg_pr: "#FAFAFA",
       bl_gradient: "#0C0926",
+      input: "#DBDEE7,"
     },
     backgroundImage: {
       "hero-pattern": "url('images/home/hero.png')",
