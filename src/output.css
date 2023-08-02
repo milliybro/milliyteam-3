@@ -630,16 +630,16 @@ video {
           margin-inline-start: -11rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .mt-6 {
@@ -650,12 +650,8 @@ video {
   margin-top: 110px;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mt-48 {
-  margin-top: 12rem;
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
 .block {
@@ -734,8 +730,16 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-8 {
@@ -762,6 +766,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -772,10 +780,6 @@ video {
 
 .gap-\[40px\] {
   gap: 40px;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .self-center {
@@ -798,16 +802,12 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
 }
 
 .border {
@@ -898,6 +898,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -916,11 +926,6 @@ video {
 .py-\[173px\] {
   padding-top: 173px;
   padding-bottom: 173px;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pb-1 {
@@ -1029,12 +1034,20 @@ video {
   padding-top: 38px;
 }
 
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
 .pt-\[67px\] {
   padding-top: 67px;
 }
 
 .pt-\[72px\] {
   padding-top: 72px;
+}
+
+.pt-56 {
+  padding-top: 14rem;
 }
 
 .text-left {
@@ -1057,6 +1070,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .text-\[14px\] {
@@ -1119,6 +1137,11 @@ video {
   text-transform: uppercase;
 }
 
+.lining-nums {
+  --tw-numeric-figure: lining-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -1145,10 +1168,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-input {
-  color: #DBDEE7,;
 }
 
 .shadow-inner {
