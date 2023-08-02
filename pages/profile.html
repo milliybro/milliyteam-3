@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../src/output.css" />
+</head>
+<body>
+   <header>
+      <nav id="navbar" class="navbar fixed w-full z-20 left-0 top-0 m-auto bg-bg_pr">
+        <div class="navbar__header bg-[black]">
+          <div class="max-w-screen-xl m-auto navbar__header__link bg-black   ">
+            <a class="text-grey active:text-white text-xs uppercase font-bold" href="#">Ru</a>
+            <a class="text-grey active:text-white text-xs  uppercase font-bold" href="#">Uzb</a>
+          </div>
+        </div>
+        <div class="max-w-screen-xl container mx-auto m-auto flex justify-between items-center py-5">
+          <div class="navbar__logo ">
+            <h3 class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MILANDI</h3>
+          </div>
+          <ul class="hidden lg:flex">
+            <li class="text-black font-medium block px-6 hover:text-blue cursor-pointer">Главная</li>
+            <li class="text-black font-medium block px-6 hover:text-blue cursor-pointer">О нас</li>
+            <li class="text-black font-medium block px-6 hover:text-blue cursor-pointer">Категории</li>
+            <li class="text-black font-medium block px-6 hover:text-blue cursor-pointer">Сотрудничество</li>
+          </ul>
+          <div class="hidden pt-3 sm:flex">
+            <button class="block px-6 cursor-pointer rounded mx-4 bg-btn">Войти</button>
+            <button class="block px-6 cursor-pointer rounded mx-4 bg-primary">Зарегистрироваться</button>
+            <img class="block px-6" src="../images/home/navbar.svg">
+          </div>
+          <button data-collapse-toggle="navbar-cta" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-cta" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="category" class="bg-secondary pb-[243px]">
+         <div class="max-w-screen-xl container mx-auto m-auto pt-[100px]">
+           <h1 class="font-bold text-4xl text-center pt-[100px] pb-9">CONTACT</h1>
+           <div class="grid grid-cols-1 gap-[40px] sm:grid-cols-2 lg:grid-cols-4">
+             <div class="grid__card bg-white rounded-xl ">
+               <img class="w-full h-full" src="../images/macbook12/mens.png">
+               <button
+               class="mt-3 text-sm font-semibold uppercase text-center rounded-lg bg-primary px-16  py-2 m-auto flex justify-center">Изменить</button>
+             </div>
+             <div class="grid__card rounded-xl">
+               <form action="#" class="gap-4">
+                  <input class="block w-full border rounded-sm text-black py-3 px-6 mb-4 " type="text" placeholder="Имя и фамилия:">
+                  <input class="block w-full border rounded-sm text-black py-3 px-6 mb-4 " type="text" placeholder="Номер телефона">
+               </form>
+             </div>
+             <div class="grid__card rounded-xl">
+               <form action="#" class="gap-4">
+                  <input class="block w-full border rounded-sm text-black py-3 px-6 mb-4 " type="text" placeholder="Адрес">
+               </form>
+             </div>
+         </div>
+       </section>
+    </main>
+    <footer>
+      <div class="max-w-screen-xl container mx-auto m-auto pt-[100px] pb-[48px]">
+        <div class="grid grid-cols-1 m-auto justify-center text-clip sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
+          <div class="w-52">
+            <h3 class="text-sm font-semibold uppercase pb-4" >про imperia</h3>
+            <p class="text-sm font-normal pb-[15px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+            </p>
+            <img src="../images/home/footer.png">
+          </div>
+          <div>
+            <ul class="gap-3">
+              <h3  class="text-sm font-semibold uppercase pb-4">контакты</h3>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">+998 90 958 78 87</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">support@fonon.uz</a></li>
+            </ul>
+            <ul>
+              <h3  class="text-sm font-semibold uppercase pb-4 pt-[38px]">рабочее время</h3>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">По будням 9:00 to 18:00</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">В выходные 11:00 to 18:00</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h3 class="text-sm font-semibold uppercase pb-4">Меню</h3>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Главная</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">О нас</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Категории</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Сотрудничество</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <h3 class="text-sm font-semibold uppercase pb-4">категории</h3>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Женская одежда</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Мужская одежда</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Детская одежда</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Обувь</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Сумки</a></li>
+              <li><a href="#" class="text-sm font-normal pb-[20px]">Аксесуары</a></li>
+   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
